@@ -1,11 +1,28 @@
-h2.red {
+h2 {
     color: red;
 }
 
-h2.blue {
-    color: blue;
+.special {
+    color: green;
 }
 
-#h2-special {
-    border: 2px solid green;
+#contents {
+    border: dashed darkred 1px;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.contents-item {
+    display: block;
+}
+
+#stats-passwd {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
